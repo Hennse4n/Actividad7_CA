@@ -1,1 +1,6 @@
 # Actividad7_CA
+
+PARTE DE SAMUEL 
+
+PARTE DE IOSELIN 
+
