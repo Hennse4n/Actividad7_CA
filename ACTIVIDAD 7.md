@@ -1,5 +1,10 @@
 # Actividad7_CA
 
+- Samuel Esteban Pichillá Duartes 202505036
+- Hasel Abigail Girón Urbina 202504693
+- Josselyn Gabriela Mendoza Camargo 202500317
+- Hennsen Armando Rodrigo Aldana Villalobos 202500286
+
 # Día 1 - Inicio del Proyecto
 
 **[10:00 AM] Josselyn (Moderador):**  
@@ -245,60 +250,108 @@ Dejaremos el flujo de uso documentado como está y mañana temprano haremos la c
 | #008    | Activar procedimiento de fallback         | Josselyn   | ✅ Completado    | Crítica  |
 | #009    | Redistribuir tareas por desconexión       | Hennsen y Hasel | ✅ Completado    | Crítica  |
 
-## DOCUMENTO FINAL CONSOLIDADO
-SISTEMA DE GESTIÓN DE TAREAS ACADÉMICAS
-### **TaskEdu**
-#### 1. DEFINICIÓN DEL PROBLEMA
-Los estudiantes universitarios enfrentan las siguientes dificultades:
-Desorganización: Múltiples tareas con diferentes fechas de entrega generan confusión
-Falta de priorización: No distinguen entre actividades urgentes e importantes
-Poca visibilidad: Dificultad para visualizar el progreso general
-Coordinación deficiente: Problemas para organizar trabajos en equipo
-Solución propuesta: Sistema web/móvil que centralice la gestión de tareas académicas con herramientas de organización, priorización y seguimiento.
+# PRESENTACIÓN FINAL
 
-#### 2. FUNCIONALIDADES PRINCIPALES
-| Funcionalidad | Descripción                                                                 |
-|---------------|-----------------------------------------------------------------------------|
-| F1            | Registro de Actividades: Creación de tareas con título, descripción, materia, fecha de entrega y etiquetas |
-| F2            | Sistema de Priorización: Clasificación en Alta/Media/Baja con indicadores visuales de color (rojo/amarillo/verde) |
-| F3            | Dashboard de Progreso: Visualización gráfica del avance: tareas completadas vs. pendientes, calendario de entregas |
-| F4            | Notificaciones Inteligentes: Alertas automáticas: 3 días antes, 1 día antes y 1 hora antes del vencimiento |
-| F5            | Gestión Colaborativa: Asignación de subtareas en proyectos grupales, comentarios y seguimiento de responsabilidades |
+## Cómo se organizó el equipo
 
-### 3. ROLES DEL SISTEMA
-3.1 Estudiante
-Permisos:
-Crear, editar y eliminar sus propias tareas
-Visualizar su dashboard personal
-Unirse a proyectos grupales
-Marcar tareas como completadas
-Recibir notificaciones
-3.2 Profesor
-Permisos:
-Crear asignaciones para cursos completos
-Establecer deadlines y rúbricas
-Visualizar progreso de todos los estudiantes
-Enviar recordatorios masivos
-Generar reportes de cumplimiento
-3.3 Administrador
-Permisos:
-Gestionar usuarios (crear, editar, eliminar)
-Configurar parámetros del sistema
-Gestionar cursos y matrículas
-Acceso a estadísticas globales
-Soporte técnico
+### Asignación clara de roles
 
+- **Josselyn Mendoza (Moderador)**: Coordinó las sesiones, facilitó la comunicación, tomó decisiones cuando fue necesario y activó el procedimiento de fallback ante la desconexión
+- **Samuel Pichillá (Timekeeper)**: Estableció cronograma, monitoreó tiempos en cada sesión, aseguró el cumplimiento de deadlines
+- **Hennsen Aldana y Hasel Girón (Notetaker)**: Documentó todas las decisiones, consolidó el documento final, mantuvo registro de issues
 
-### 4. CONSIDERACIONES TÉCNICAS
-Plataforma: Web responsive + App móvil (iOS/Android)
-Tecnologías propuestas:
-Frontend: React.js / React Native
-Backend: Node.js + Express
-Base de datos: MongoDB
-Autenticación: JWT (JSON Web Tokens)
-Notificaciones: Firebase Cloud Messaging
-Seguridad:
-Encriptación de contraseñas (bcrypt)
-HTTPS obligatorio
-Backup automático diario
-Recuperación de contraseña por correo
+### Distribución del trabajo
+
+- Las 5 tareas principales se dividieron equitativamente
+- Cada miembro tuvo responsabilidad primaria en al menos 1 tarea
+- Revisión cruzada: todos revisaron el trabajo de los demás
+
+### Herramientas utilizadas
+
+- Chat grupal para comunicación sincrónica
+- Documento compartido en Google Docs
+- Sistema de issues para tracking de tareas
+
+---
+
+## Cómo gestionaron la comunicación
+
+### Etiqueta profesional aplicada
+
+- **Tono**: Formal pero cercano, respetuoso en todo momento
+- **Claridad**: Mensajes estructurados con viñetas y negritas
+- **Estructura**: Saludo + contexto + acción requerida + cierre
+
+### Frecuencia de comunicación
+
+- Check-ins diarios (mañana y tarde)
+- Respuestas dentro de las 2 horas máximo
+- Notificaciones inmediatas para urgencias
+
+### Canales utilizados
+
+- **Chat principal**: Decisiones y coordinación
+- **Documento compartido**: Documentación formal
+- **WhatsApp (backup)**: Contacto de emergencia
+
+---
+
+## Dificultades encontradas al trabajar de forma remota
+
+### Problema de conexión (Día 3)
+
+- **Situación**: Samuel perdió conexión por falla eléctrica
+- **Impacto**: 20 minutos de retraso en la sesión
+- **Solución**: Activación inmediata del procedimiento de fallback
+
+### Coordinación de horarios
+
+- **Situación**: Disponibilidad diferente en algunos horarios
+- **Solución**: Establecimiento de bloques fijos de trabajo (9 AM - 12 PM)
+
+### Comunicación asincrónica
+
+- **Situación**: Demora en respuestas cuando no todos estaban conectados
+- **Solución**: Uso de mensajes claros con acciones específicas y deadlines
+
+---
+
+## Estrategias utilizadas para resolver problemas
+
+### Procedimiento de fallback documentado
+
+- Protocolo claro para pérdida de conexión
+- Redistribución inmediata de tareas
+- Múltiples canales de contacto (chat, email, WhatsApp)
+
+### Roles bien definidos
+
+- Cada miembro conocía sus responsabilidades
+- El moderador tenía autoridad para tomar decisiones rápidas
+- El timekeeper aseguraba que los retrasos no afectaran el cronograma
+
+### Documentación en tiempo real
+
+- El notetaker registraba todo inmediatamente
+- Evitó pérdida de información
+- Permitió que Samuel se reincorporara rápidamente al estar documentado
+
+### Comunicación proactiva
+
+- Anticipación de problemas (Samuel avisó apenas pudo)
+- Transparencia en el estado de las tareas
+- Feedback constante entre miembros
+
+---
+
+## LECCIONES APRENDIDAS
+
+1. **La planificación de contingencias es esencial**: El procedimiento de fallback funcionó perfectamente, permitiendo continuar sin pérdidas mayores.
+
+2. **Los roles claros mejoran la eficiencia**: Cada miembro sabía exactamente qué hacer, evitando duplicación de esfuerzos.
+
+3. **La documentación en tiempo real es crucial**: Permitió la reincorporación rápida de Samuel y mantuvo a todos alineados.
+
+4. **La comunicación profesional previene malentendidos**: El uso de tono, claridad y estructura apropiados facilitó el trabajo remoto.
+
+5. **La flexibilidad es clave**: La capacidad de adaptar roles temporalmente (Hennsen asumió Timekeeper + Notetaker) salvó la sesión.
