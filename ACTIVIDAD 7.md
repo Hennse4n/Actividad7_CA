@@ -11,7 +11,7 @@ Les escribo para dar inicio a nuestro Mini-Proyecto 1 sobre el Sistema de Gesti�
 **Roles asignados:**  
 - Yo seré el Moderador  
 - Samuel será el Timekeeper  
-- Hennsen será el Notetaker  
+- Hennsen y Hasel serán Notetaker  
 
 Por favor, confirmen recepción y disponibilidad para comenzar."
 
@@ -29,7 +29,7 @@ Por favor, confirmen recepción y disponibilidad para comenzar."
 
 ---
 
-**[10:30 AM] Hennsen (Notetaker):**  
+**[10:30 AM] Hennsen y Hasel (Notetaker):**  
 "Buenos días a ambos. Confirmo mi participación como Notetaker.  
 
 El cronograma me parece adecuado. Crearé un documento compartido en Google Docs para ir registrando nuestros avances y decisiones.  
@@ -63,7 +63,7 @@ Comencemos con la definición del problema. ¿Cuáles son sus propuestas?"
 
 ---
 
-**[9:15 AM] Hennsen (Notetaker):**  
+**[9:15 AM] Hennsen Hennsen y Hasel (Notetaker):**  
 
 **PROBLEMA DEFINIDO:**  
 Los estudiantes universitarios enfrentan dificultades para:  
@@ -83,7 +83,7 @@ Los estudiantes universitarios enfrentan dificultades para:
 ---
 
 **[9:35 AM] Josselyn (Moderador):**  
-"Excelente trabajo, Hennsen.  
+"Excelente trabajo, Hennsen y Hasel.  
 
 Propongo agregar una quinta funcionalidad:  
 5. Asignación de tareas en trabajos colaborativos  
@@ -125,14 +125,14 @@ Samuel no ha respondido y parece tener problemas de conexión.
 - Hennsen y yo cubriremos temporalmente sus responsabilidades  
 
 **Redistribución temporal:**  
-- Hennsen: Asumirá control de tiempos además de documentación  
+- Hennsen y Hasel: Asumirán control de tiempos además de documentación  
 - Yo: Coordinaré ambas áreas hasta que Samuel se reincorpore  
 
-Hennsen, ¿estás de acuerdo con este plan?"
+Hennsen y Hasel, ¿están de acuerdo con este plan?"
 
 ---
 
-**[2:20 PM] Hennsen (Notetaker):**  
+**[2:20 PM] Hennsen y Hasel (Notetaker):**  
 "Confirmo. Asumo temporalmente el rol de Timekeeper además de Notetaker.  
 
 **Plan de acción:**  
@@ -156,7 +156,7 @@ Mientras tanto, intentaré contactar a Samuel por correo electrónico."
 
 ---
 
-**[2:45 PM] Hennsen (Notetaker/Timekeeper temporal):**  
+**[2:45 PM] Hennsen y Hasel (Notetaker/Timekeeper temporal):**  
 "**TIME CHECK:** 2:45 PM  
 
 - Roles del sistema: COMPLETADO  
@@ -217,7 +217,7 @@ Por favor, retoma el control del tiempo. Nos faltan definir los flujos de uso."
 
 ---
 
-**[3:30 PM] Hennsen (Notetaker):**  
+**[3:30 PM] Hennsen y Hasel (Notetaker):**  
 "Excelente propuesta, Samuel.  
 
 **DECISIÓN DEL EQUIPO:**  
@@ -230,3 +230,75 @@ Dejaremos el flujo de uso documentado como está y mañana temprano haremos la c
 - Entrega final  
 
 **Lección aprendida:** El procedimiento de fallback funcionó correctamente. Pudimos continuar sin perder tiempo significativo."
+
+## ISSUES/TAREAS CREADAS
+
+| Issue # | Título                                    | Asignado a | Estado          | Prioridad |
+|---------|-------------------------------------------|------------|-----------------|----------|
+| #001    | Definir problema a resolver               | Todos      | ✅ Completado    | Alta     |
+| #002    | Establecer funcionalidades principales    | Josselyn   | ✅ Completado    | Alta     |
+| #003    | Definir roles del sistema (usuarios)      | Samuel     | ✅ Completado    | Alta     |
+| #004    | Describir flujo de uso                    | Hennsen y Hasel | ✅ Completado    | Alta     |
+| #005    | Crear documento compartido                | Hennsen y Hasel | ✅ Completado    | Media    |
+| #006    | Establecer cronograma                     | Samuel     | ✅ Completado    | Media    |
+| #007    | Consolidar documento final                | Todos      | ❌ En progreso   | Alta     |
+| #008    | Activar procedimiento de fallback         | Josselyn   | ✅ Completado    | Crítica  |
+| #009    | Redistribuir tareas por desconexión       | Hennsen y Hasel | ✅ Completado    | Crítica  |
+
+## DOCUMENTO FINAL CONSOLIDADO
+SISTEMA DE GESTIÓN DE TAREAS ACADÉMICAS
+### **TaskEdu**
+#### 1. DEFINICIÓN DEL PROBLEMA
+Los estudiantes universitarios enfrentan las siguientes dificultades:
+Desorganización: Múltiples tareas con diferentes fechas de entrega generan confusión
+Falta de priorización: No distinguen entre actividades urgentes e importantes
+Poca visibilidad: Dificultad para visualizar el progreso general
+Coordinación deficiente: Problemas para organizar trabajos en equipo
+Solución propuesta: Sistema web/móvil que centralice la gestión de tareas académicas con herramientas de organización, priorización y seguimiento.
+
+#### 2. FUNCIONALIDADES PRINCIPALES
+| Funcionalidad | Descripción                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| F1            | Registro de Actividades: Creación de tareas con título, descripción, materia, fecha de entrega y etiquetas |
+| F2            | Sistema de Priorización: Clasificación en Alta/Media/Baja con indicadores visuales de color (rojo/amarillo/verde) |
+| F3            | Dashboard de Progreso: Visualización gráfica del avance: tareas completadas vs. pendientes, calendario de entregas |
+| F4            | Notificaciones Inteligentes: Alertas automáticas: 3 días antes, 1 día antes y 1 hora antes del vencimiento |
+| F5            | Gestión Colaborativa: Asignación de subtareas en proyectos grupales, comentarios y seguimiento de responsabilidades |
+
+### 3. ROLES DEL SISTEMA
+3.1 Estudiante
+Permisos:
+Crear, editar y eliminar sus propias tareas
+Visualizar su dashboard personal
+Unirse a proyectos grupales
+Marcar tareas como completadas
+Recibir notificaciones
+3.2 Profesor
+Permisos:
+Crear asignaciones para cursos completos
+Establecer deadlines y rúbricas
+Visualizar progreso de todos los estudiantes
+Enviar recordatorios masivos
+Generar reportes de cumplimiento
+3.3 Administrador
+Permisos:
+Gestionar usuarios (crear, editar, eliminar)
+Configurar parámetros del sistema
+Gestionar cursos y matrículas
+Acceso a estadísticas globales
+Soporte técnico
+
+
+### 4. CONSIDERACIONES TÉCNICAS
+Plataforma: Web responsive + App móvil (iOS/Android)
+Tecnologías propuestas:
+Frontend: React.js / React Native
+Backend: Node.js + Express
+Base de datos: MongoDB
+Autenticación: JWT (JSON Web Tokens)
+Notificaciones: Firebase Cloud Messaging
+Seguridad:
+Encriptación de contraseñas (bcrypt)
+HTTPS obligatorio
+Backup automático diario
+Recuperación de contraseña por correo
