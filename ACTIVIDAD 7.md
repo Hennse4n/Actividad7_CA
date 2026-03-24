@@ -5,6 +5,12 @@
 - Josselyn Gabriela Mendoza Camargo 202500317
 - Hennsen Armando Rodrigo Aldana Villalobos 202500286
 
+| Estudiante       | Rol        | Responsabilidades                                                              |
+|------------------|------------|-------------------------------------------------------------------------------|
+| Josselyn Mendoza | Moderador  | Coordinar el equipo, facilitar la comunicación, asegurar que todos participen |
+| Samuel Pichillá   | Timekeeper | Controlar tiempos, asegurar cumplimiento de deadlines, gestionar cronograma   |
+| Hennsen Aldana y Hasel Abigail | Notetaker  | Documentar decisiones, registrar acuerdos, consolidar documento final         |
+
 # Día 1 - Inicio del Proyecto
 
 **[10:00 AM] Josselyn (Moderador):**  
